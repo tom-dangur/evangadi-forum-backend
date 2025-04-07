@@ -3,9 +3,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 const db = mysql.createPool({
 	host: "102.218.50.130",
-	user: "evangadi-admin",
+	user: "tomdanha_evangadi-admin",
 	password: process.env.DB_PASSWORD,
-	database: "evangadi-forum",
+	database: "tomdanha_evangadi-forum",
 });
 
 module.exports = db.promise();
